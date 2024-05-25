@@ -1,0 +1,108 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.header {
+  font-weight: 500;
+  font-size: larger;
+  border: 2px solid;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.formHeader {
+  margin-left: 12px;
+}
+
+.card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  background-color: white;
+}
+
+.addContact {
+  font-size: initial;
+  font-weight: 500;
+  font-family: fantasy;
+  margin-bottom: 16px;
+}
+
+.lastname {
+  font-size: x-small;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  background: white;
+  margin-bottom: 2px;
+  margin-left: 12px;
+  margin-right: 5px;
+  padding: 10px; /* Optional: Add padding for better spacing */
+}
+
+.ContactsHeader {
+  font-size: medium;
+  font-weight: 500;
+  font-family: system-ui;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+.btn {
+  border-color: cadetblue;
+  color: brown;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin-top: 10px;
+}
+
+input {
+  margin-bottom: 5px;
+  padding: 8px;
+  width: calc(100% - 16px);
+  box-sizing: border-box;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.App {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
